@@ -1,0 +1,42 @@
+.container {
+    margin-top: 10px; /* Margen superior para el contenido principal */
+}
+
+
+.navbar {
+    background-color: #343a40; /* Color de fondo */
+    border-bottom: 1px solid #ffffff; /* Línea inferior */
+}
+
+#titulo_nave {
+    font-size: 1.8rem; 
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Color del texto */
+    margin: 0 15px; /* Espaciado entre enlaces */
+}
+
+
+.navbar-nav .nav-link:hover {
+    color:skyblue; 
+}
+
+/*  */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold; /* Texto en negrita para el enlace activo */
+}
+
+
+
+
+
+/* Estilos para los botones  */
+.btn:hover {
+    background-color: #343a40; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre el botón */
+    border: 1px solid #ffffff; /* Cambia el color del borde al pasar el ratón sobre el botón */
+}
+
+
